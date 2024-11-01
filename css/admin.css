@@ -1,0 +1,107 @@
+
+.ubiliz-gs-wrapper,
+.ubiliz-gs-wrapper *,
+.ubiliz-gs-wrapper *:before,
+.ubiliz-gs-wrapper *:after
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ubiliz-gs-wrapper {
+    padding-right: 15px;
+    color: #1e1f26;
+}
+
+.ubiliz-gs-wrapper .notice {
+    margin: 15px 0;
+}
+
+.ubiliz-gs-wrapper h1 {
+
+}
+
+.ubiliz-gs-content {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.ubiliz-gs-container {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.ubiliz-gs-container p {
+    font-size: 14px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.ubiliz-gs-sc-ui {
+    max-width: 35%;
+    margin: 0 auto;
+}
+
+.ubiliz-sc {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 0.75rem;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.ubiliz-sc span {
+    font-size: 14px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+
+.ubiliz-sc button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ubiliz-gs-table {
+    border-collapse: collapse;
+    width: auto;
+}
+
+.ubiliz-gs-table tr {
+    border-bottom: 1px solid lightgray;
+}
+
+.ubiliz-gs-table th, .ubiliz-gs-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.ubiliz-badge {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 1px 0 -1px 2px;
+    padding: 0 10px;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: #1BBA9A;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.ubiliz-badge.disabled {
+    background-color: lightgray;
+    color: black;
+}
